@@ -34,11 +34,11 @@
    
    users.users = {
      root.hashedPassword = "!"; # Disable root login
-     username = {
+     xill47 = {
        isNormalUser = true;
        extraGroups = [ "wheel" ];
        openssh.authorizedKeys.keys = [
-         ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGXFGbn/7gCBjGukrQrz+62fNeXk+r3DiCqyB0W7lK1s
+         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGXFGbn/7gCBjGukrQrz+62fNeXk+r3DiCqyB0W7lK1s"
        ];
      };
    };
